@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu primeiro programa</title>
+    <style>
+        p.resposta {
+            font: normal 2rem arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`<p class="resposta">Olá, ${nome}, seu nome tem ${nome.length} letras.</p>`)
+        document.write(`<p class="resposta">Seu nome em maiúsculo é ${nome.toUpperCase()}.</p>`)
+        document.write(`<p class="resposta">Seu nome em minúsculo é ${nome.toLowerCase()}.</p>`)
+
+    </script>
+</body>
+
+</html>
