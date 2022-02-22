@@ -6,6 +6,7 @@ body {
 }
 header {
     color: white;
+    text-align: center;
 
 }
 section {
@@ -15,11 +16,14 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.26);
-
-
+}
+#list {
+    width: 150px;
+    margin-bottom: 10px;
 }
 footer {
     color: white;
     font-style: italic;
+    text-align: center;
 
 }
